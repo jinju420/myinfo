@@ -54,6 +54,7 @@ body {
 }
 #sec .sec01 .inner .bottom .title span {
   font: 25px/1 "arial";
+  color: salmon;
 }
 #sec .sec01 .inner .bottom .info {
   border-top: 1px solid #333;
@@ -72,6 +73,13 @@ body {
 }
 #sec .guide .inner > div:last-child {
   border: none;
+}
+#sec .guide .inner > div .skillBox > div span {
+  font: bold 16px/1 arial;
+  color: salmon;
+}
+#sec .guide .inner > div:nth-of-type(3) p {
+  font: 14px/1.4 "arial";
 }
 #sec .guide .inner h1 {
   font: bold 25px/1 "arial";
@@ -93,10 +101,12 @@ body {
 #sec .guide .right > .inner .title h2 {
   margin-right: 20px;
   font: 40px/1 "arial";
+  color: salmon;
 }
 #sec .guide .right > .inner .title span {
   border-left: 1px solid #333;
   padding-left: 20px;
+  color: salmon;
 }
 #sec .guide .right > .inner .guide_box {
   word-break: keep-all;
