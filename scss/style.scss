@@ -315,8 +315,29 @@
 					width: 100%;
 					margin-top: 20px;
 					border-bottom: 1px solid #333;
+					p {
+						margin-left: 85px;
+					}
 					&:last-child {
 						border-bottom: none;
+
+						p {
+							// display: flex;
+							// align-items: center;
+
+							a {
+								// margin-left: 20px;
+								display: inline-block;
+								margin-top: 10px;
+								color: #333;
+								opacity: 0.5;
+								font-size: 12px;
+								text-decoration: underline;
+								&:hover {
+									opacity: 1;
+								}
+							}
+						}
 					}
 				}
 				> h1 {
@@ -338,6 +359,7 @@
 						font: 45px/1 'Rajdhani';
 						font-weight: 600;
 						color: #ff6ec4;
+						width: 45px;
 					}
 					span {
 						border-left: 1px solid #333;
