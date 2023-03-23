@@ -31,16 +31,6 @@
 				}
 			}
 			.bottom {
-				.title {
-					// display: flex;
-					// justify-content: space-between;
-					// align-items: center;
-					// margin: 20px 0;
-					// span {
-					// 	font: 25px/1 'arial';
-					// 	color: #ff6ec4;
-					// }
-				}
 				.info {
 					border-top: 1px solid #333;
 					border-bottom: 1px solid #333;
@@ -52,16 +42,11 @@
 						width: 30%;
 						text-align: center;
 						border-right: 1px solid #333;
-						// position: relative;
-						// &::after {
-						// 	position: absolute;
-						// 	top: 0;
-						// 	right: 0;
-						// 	content: '';
-						// 	display: block;
-						// 	width: 1px;
-						// 	height: 100%;
-						// }
+						font: 15px/1.4 'NanumSquare';
+						cursor: default;
+						&:first-child {
+							cursor: pointer;
+						}
 						&:last-child {
 							border: none;
 						}
@@ -85,6 +70,7 @@
 					border: none;
 				}
 				.skillBox {
+					margin-top: 100px;
 					> div {
 						display: flex;
 						align-items: center;
@@ -228,6 +214,8 @@
 			}
 		}
 		.left {
+			width: 50%;
+			border-right: 1px solid #333;
 			> .inner {
 				> div {
 					&:first-child {
@@ -235,14 +223,96 @@
 					}
 				}
 			}
-			width: 50%;
-			border-right: 1px solid #333;
 		}
+		// .right {
+		// 	width: 50%;
+		// 	padding-left: 10px;
+		// 	> .inner {
+		// 		article {
+		// 			margin-top: 20px;
+		// 			border-bottom: 1px solid #333;
+		// 			&:last-child {
+		// 				border-bottom: none;
+		// 			}
+		// 		}
+		// 		> h1 {
+		// 			margin-top: 30px;
+		// 			margin-bottom: 0;
+		// 		}
+		// 		.title {
+		// 			display: flex;
+		// 			align-items: center;
+		// 			justify-content: space-between;
+		// 			margin-bottom: 7px;
+		// 			.num {
+		// 				display: flex;
+		// 				align-items: center;
+		// 			}
+
+		// 			h2 {
+		// 				margin-right: 20px;
+		// 				font: 45px/1 'Rajdhani';
+		// 				font-weight: 600;
+		// 				color: #ff6ec4;
+		// 			}
+		// 			span {
+		// 				border-left: 1px solid #333;
+		// 				padding-left: 20px;
+		// 				font: 20px/1 'Rajdhani';
+		// 				font-weight: 500;
+		// 				color: #ff6ec4;
+		// 			}
+		// 		}
+		// 		.guide_box {
+		// 			word-break: keep-all;
+		// 			p {
+		// 				padding-bottom: 15px;
+		// 				font: 15px/1.4 'NanumSquare';
+		// 			}
+		// 			.html_add {
+		// 				display: flex;
+		// 				align-items: center;
+		// 				justify-content: flex-end;
+		// 				border-top: 1px solid #333;
+		// 				.fa-folder-open {
+		// 					padding-left: 10px;
+		// 					color: #ff6ec4;
+		// 					vertical-align: middle;
+		// 				}
+		// 				a {
+		// 					color: #333;
+		// 					display: inline-block;
+		// 					padding: 10px 10px 10px 0;
+		// 					font: 12px/1 'Rajdhani';
+		// 					border-right: 1px solid #333;
+		// 					&.last {
+		// 						border-right: none;
+		// 					}
+		// 					&:hover {
+		// 						opacity: 0.5;
+		// 						text-decoration: underline;
+		// 					}
+		// 				}
+		// 			}
+		// 			.git_file {
+		// 				.pdf_file {
+		// 					padding: 10px;
+		// 					.fa-caret-down {
+		// 						margin-left: 10px;
+		// 						color: #ff6ec4;
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
+
 		.right {
 			width: 50%;
 			padding-left: 10px;
 			> .inner {
 				article {
+					width: 100%;
 					margin-top: 20px;
 					border-bottom: 1px solid #333;
 					&:last-child {
@@ -272,7 +342,7 @@
 					span {
 						border-left: 1px solid #333;
 						padding-left: 20px;
-						font: 20px/1 'Rajdhani';
+						font: 16px/1 'Rajdhani';
 						font-weight: 500;
 						color: #ff6ec4;
 					}
@@ -281,7 +351,7 @@
 					word-break: keep-all;
 					p {
 						padding-bottom: 15px;
-						font: 15px/1.4 'NanumSquare';
+						font: 14px/1.4 'NanumSquare';
 					}
 					.html_add {
 						display: flex;
@@ -299,6 +369,7 @@
 							padding: 10px 10px 10px 0;
 							font: 12px/1 'Rajdhani';
 							border-right: 1px solid #333;
+
 							&.last {
 								border-right: none;
 							}

@@ -60,6 +60,11 @@ body {
   width: 30%;
   text-align: center;
   border-right: 1px solid #333;
+  font: 15px/1.4 "NanumSquare";
+  cursor: default;
+}
+#sec .sec01 .inner .bottom .info a:first-child {
+  cursor: pointer;
 }
 #sec .sec01 .inner .bottom .info a:last-child {
   border: none;
@@ -77,6 +82,9 @@ body {
 }
 #sec .guide .inner > div:last-child {
   border: none;
+}
+#sec .guide .inner > div .skillBox {
+  margin-top: 100px;
 }
 #sec .guide .inner > div .skillBox > div {
   display: flex;
@@ -223,6 +231,7 @@ body {
   padding-left: 10px;
 }
 #sec .guide .right > .inner article {
+  width: 100%;
   margin-top: 20px;
   border-bottom: 1px solid #333;
 }
@@ -252,7 +261,7 @@ body {
 #sec .guide .right > .inner .title span {
   border-left: 1px solid #333;
   padding-left: 20px;
-  font: 20px/1 "Rajdhani";
+  font: 16px/1 "Rajdhani";
   font-weight: 500;
   color: #ff6ec4;
 }
@@ -261,7 +270,7 @@ body {
 }
 #sec .guide .right > .inner .guide_box p {
   padding-bottom: 15px;
-  font: 15px/1.4 "NanumSquare";
+  font: 14px/1.4 "NanumSquare";
 }
 #sec .guide .right > .inner .guide_box .html_add {
   display: flex;
