@@ -23,18 +23,19 @@ body {
   width: 100%;
   height: auto;
   border: 1px solid #333;
-  padding: 10px;
+  padding: 10px 10px 0;
 }
 #sec .sec01 .inner .top {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 #sec .sec01 .inner .top h2 {
   font: 50px/1 "arial";
 }
 #sec .sec01 .inner .top .img_box {
-  border: 1px solid pink;
+  border: 1px solid #ff6ec4;
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -46,40 +47,74 @@ body {
   height: 100%;
   border-radius: 50%;
 }
-#sec .sec01 .inner .bottom .title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px 0;
-}
-#sec .sec01 .inner .bottom .title span {
-  font: 25px/1 "arial";
-  color: salmon;
-}
 #sec .sec01 .inner .bottom .info {
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 15px 0;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+#sec .sec01 .inner .bottom .info a {
+  width: 30%;
+  text-align: center;
+  border-right: 1px solid #333;
+}
+#sec .sec01 .inner .bottom .info a:last-child {
+  border: none;
+}
+#sec .sec01 .inner .bottom .info a i {
+  margin-right: 5px;
+  color: #ff6ec4;
 }
 #sec .guide {
   display: flex;
 }
 #sec .guide .inner > div {
-  padding: 30px 0;
+  padding: 30px 0 0;
   border-bottom: 1px solid #333;
 }
 #sec .guide .inner > div:last-child {
   border: none;
 }
-#sec .guide .inner > div .skillBox > div span {
-  font: bold 16px/1 arial;
-  color: salmon;
+#sec .guide .inner > div .skillBox > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-#sec .guide .inner > div:nth-of-type(3) p {
-  font: 14px/1.4 "arial";
+#sec .guide .inner > div .skillBox > div .img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+#sec .guide .inner > div .skillBox > div .img img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+#sec .guide .inner > div .skillBox > div .img span {
+  margin-top: 20px;
+  font: bold 14px/1 arial;
+  color: #ff6ec4;
+}
+#sec .guide .inner > div .skillBox > div .bar {
+  width: 50%;
+  height: 7px;
+  border-radius: 20px;
+  background: #ddd;
+  position: relative;
+}
+#sec .guide .inner > div .skillBox > div .bar::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 70%;
+  height: 100%;
+  background: #ff6ec4;
+  border-radius: 5px;
 }
 #sec .guide .inner h1 {
   font: bold 25px/1 "arial";
@@ -89,42 +124,75 @@ body {
   width: 50%;
   border-right: 1px solid #333;
 }
+#sec .guide .left > .inner > div {
+  padding-bottom: 30px;
+}
 #sec .guide .right {
   width: 50%;
-  padding: 30px 0 0 10px;
+  padding: 20px 0 0 10px;
+}
+#sec .guide .right > .inner > h1 {
+  margin-bottom: 0;
 }
 #sec .guide .right > .inner .title {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 15px;
+}
+#sec .guide .right > .inner .title .num {
+  display: flex;
+  align-items: center;
 }
 #sec .guide .right > .inner .title h2 {
   margin-right: 20px;
   font: 40px/1 "arial";
-  color: salmon;
+  color: #ff6ec4;
 }
 #sec .guide .right > .inner .title span {
   border-left: 1px solid #333;
   padding-left: 20px;
-  color: salmon;
+  font: 25px/1 "arial";
+  color: #ff6ec4;
 }
 #sec .guide .right > .inner .guide_box {
   word-break: keep-all;
 }
 #sec .guide .right > .inner .guide_box p {
-  line-height: 1.5;
-  margin-bottom: 15px;
+  line-height: 1.4;
+  padding-bottom: 15px;
 }
-#sec .guide .right > .inner .guide_box .pdf_file {
+#sec .guide .right > .inner .guide_box .html_add {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
-  border: 1px solid #333;
-  padding: 15px;
+  justify-content: flex-end;
+  border-top: 1px solid #333;
 }
-#sec .guide .right > .inner .guide_box .pdf_file .fa-folder-open {
-  margin-right: 15px;
+#sec .guide .right > .inner .guide_box .html_add .fa-folder-open {
+  padding-left: 10px;
+  color: #ff6ec4;
+  vertical-align: middle;
+}
+#sec .guide .right > .inner .guide_box .html_add a {
+  color: #333;
+  display: inline-block;
+  padding: 10px 10px 10px 0;
+  font: 12px/1 "arial";
+  border-right: 1px solid #333;
+}
+#sec .guide .right > .inner .guide_box .html_add a.last {
+  border-right: none;
+}
+#sec .guide .right > .inner .guide_box .html_add a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+#sec .guide .right > .inner .guide_box .git_file .pdf_file {
+  padding: 10px;
+}
+#sec .guide .right > .inner .guide_box .git_file .pdf_file .fa-caret-down {
+  margin-left: 10px;
+  color: #ff6ec4;
 }
 
 /*# sourceMappingURL=style.css.map */
