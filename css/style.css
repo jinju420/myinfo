@@ -77,44 +77,136 @@ body {
 #sec .guide .inner > div:last-child {
   border: none;
 }
+#sec .guide .inner > div .skillBox {
+  margin-top: 50px;
+}
 #sec .guide .inner > div .skillBox > div {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(1) .container {
+  width: 60%;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(1) .container .progress2 {
+  border-radius: 30px;
+  background: #ddd;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(1) .container .progress-bar2 {
+  height: 10px;
+  border-radius: 30px;
+  animation: bar1 2s linear 1;
+  transition-property: width, background-color;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(1) .container .progress-moved .progress-bar2 {
+  width: 90%;
+  background-color: #ef476f;
+  animation: bar1 2s linear 1;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(2) .container {
+  width: 60%;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(2) .container .progress2 {
+  border-radius: 30px;
+  background: #ddd;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(2) .container .progress-bar2 {
+  height: 10px;
+  border-radius: 30px;
+  animation: bar2 2s linear 1;
+  transition-property: width, background-color;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(2) .container .progress-moved .progress-bar2 {
+  width: 90%;
+  background-color: #ef476f;
+  animation: bar2 2s linear 1;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(3) .container {
+  width: 60%;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(3) .container .progress2 {
+  border-radius: 30px;
+  background: #ddd;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(3) .container .progress-bar2 {
+  height: 10px;
+  border-radius: 30px;
+  animation: bar3 2s linear 1;
+  transition-property: width, background-color;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(3) .container .progress-moved .progress-bar2 {
+  width: 85%;
+  background-color: #ef476f;
+  animation: bar3 2s linear 1;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(4) .container {
+  width: 60%;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(4) .container .progress2 {
+  border-radius: 30px;
+  background: #ddd;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(4) .container .progress-bar2 {
+  height: 10px;
+  border-radius: 30px;
+  animation: bar4 2s linear 1;
+  transition-property: width, background-color;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(4) .container .progress-moved .progress-bar2 {
+  width: 70%;
+  background-color: #ef476f;
+  animation: bar4 2s linear 1;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(5) .container {
+  width: 60%;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(5) .container .progress2 {
+  border-radius: 30px;
+  background: #ddd;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(5) .container .progress-bar2 {
+  height: 10px;
+  border-radius: 30px;
+  animation: bar5 2s linear 1;
+  transition-property: width, background-color;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(5) .container .progress-moved .progress-bar2 {
+  width: 80%;
+  background-color: #ef476f;
+  animation: bar5 2s linear 1;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(6) .container {
+  width: 60%;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(6) .container .progress2 {
+  border-radius: 30px;
+  background: #ddd;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(6) .container .progress-bar2 {
+  height: 10px;
+  border-radius: 30px;
+  animation: bar6 2s linear 1;
+  transition-property: width, background-color;
+}
+#sec .guide .inner > div .skillBox > div:nth-of-type(6) .container .progress-moved .progress-bar2 {
+  width: 85%;
+  background-color: #ef476f;
+  animation: bar6 2s linear 1;
 }
 #sec .guide .inner > div .skillBox > div .img {
   display: flex;
-  flex-direction: column;
   align-items: center;
   width: 100px;
 }
 #sec .guide .inner > div .skillBox > div .img img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   object-fit: cover;
 }
 #sec .guide .inner > div .skillBox > div .img span {
-  margin-top: 20px;
   font: bold 14px/1 arial;
   color: #ff6ec4;
-}
-#sec .guide .inner > div .skillBox > div .bar {
-  width: 50%;
-  height: 7px;
-  border-radius: 20px;
-  background: #ddd;
-  position: relative;
-}
-#sec .guide .inner > div .skillBox > div .bar::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  display: block;
-  width: 70%;
-  height: 100%;
-  background: #ff6ec4;
-  border-radius: 5px;
 }
 #sec .guide .inner h1 {
   font: bold 25px/1 "arial";
@@ -193,6 +285,55 @@ body {
 #sec .guide .right > .inner .guide_box .git_file .pdf_file .fa-caret-down {
   margin-left: 10px;
   color: #ff6ec4;
+}
+
+@keyframes bar1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes bar2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes bar3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes bar4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes bar5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes bar6 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
