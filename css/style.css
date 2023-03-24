@@ -217,7 +217,7 @@ body {
 }
 #sec .guide .inner h1 {
   font: bold 40px/1 "Rajdhani";
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #sec .guide .left {
   width: 50%;
@@ -228,8 +228,12 @@ body {
   padding-right: 10px;
   word-break: keep-all;
 }
+#sec .guide .left > .inner > div:first-child h2 {
+  font: bold 20px/1.5 "NanumSquare";
+  margin-bottom: 5px;
+}
 #sec .guide .left > .inner > div:first-child p {
-  font: 16px/1.5 "NanumSquare";
+  font: 16px/1.4 "NanumSquare";
 }
 #sec .guide .right {
   width: 50%;
