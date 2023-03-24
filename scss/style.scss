@@ -4,22 +4,22 @@
 #sec {
 	width: 100%;
 	border: 1px solid #333;
-	padding: 10px 10px 0;
+	padding: 30px 10px 0;
 	.sec01 {
 		.inner {
 			.top {
 				display: flex;
 				align-items: center;
 				justify-content: space-evenly;
-				margin-bottom: 10px;
+				margin-bottom: 30px;
 				h2 {
-					font: 50px/1 'Dancing Script';
+					font: 70px/1 'Dancing Script';
 				}
 				.img_box {
 					border: 1px solid #ff6ec4;
 					border-radius: 50%;
-					width: 80px;
-					height: 80px;
+					width: 120px;
+					height: 120px;
 					overflow: hidden;
 					img {
 						padding: 5px;
@@ -64,20 +64,20 @@
 		display: flex;
 		.inner {
 			> div {
-				padding: 30px 0 0;
+				padding: 50px 0 0;
 				border-bottom: 1px solid #333;
 				&:last-child {
 					border: none;
 				}
 				.skillBox {
-					margin-top: 30px;
+					margin-top: 50px;
 					> div {
 						display: flex;
 						align-items: center;
 						justify-content: space-evenly;
-						margin-bottom: 10px;
+						margin-bottom: 20px;
 						&:nth-of-type(1) .container {
-							width: 60%;
+							width: 50%;
 							.progress2 {
 								border-radius: 30px;
 								background: #ddd;
@@ -96,7 +96,7 @@
 							}
 						}
 						&:nth-of-type(2) .container {
-							width: 60%;
+							width: 50%;
 							.progress2 {
 								border-radius: 30px;
 								background: #ddd;
@@ -115,7 +115,7 @@
 							}
 						}
 						&:nth-of-type(3) .container {
-							width: 60%;
+							width: 50%;
 							.progress2 {
 								border-radius: 30px;
 								background: #ddd;
@@ -134,7 +134,7 @@
 							}
 						}
 						&:nth-of-type(4) .container {
-							width: 60%;
+							width: 50%;
 							.progress2 {
 								border-radius: 30px;
 								background: #ddd;
@@ -153,7 +153,7 @@
 							}
 						}
 						&:nth-of-type(5) .container {
-							width: 60%;
+							width: 50%;
 							.progress2 {
 								border-radius: 30px;
 								background: #ddd;
@@ -172,7 +172,7 @@
 							}
 						}
 						&:nth-of-type(6) .container {
-							width: 60%;
+							width: 50%;
 							.progress2 {
 								border-radius: 30px;
 								background: #ddd;
@@ -200,7 +200,7 @@
 								object-fit: cover;
 							}
 							span {
-								font: bold 18px/1 'Rajdhani';
+								font: bold 22px/1 'Rajdhani';
 								color: #ff6ec4;
 								white-space: nowrap;
 							}
@@ -210,7 +210,7 @@
 			}
 			h1 {
 				font: bold 40px/1 'Rajdhani';
-				margin-bottom: 15px;
+				margin-bottom: 30px;
 			}
 		}
 		.left {
@@ -220,6 +220,11 @@
 				> div {
 					&:first-child {
 						padding-bottom: 30px;
+						padding-right: 10px;
+						word-break: keep-all;
+						p {
+							font: 16px/1.5 'NanumSquare';
+						}
 					}
 				}
 			}
@@ -331,7 +336,7 @@
 								margin-top: 10px;
 								color: #333;
 								opacity: 0.5;
-								font-size: 12px;
+								font-size: 14px;
 								text-decoration: underline;
 								&:hover {
 									opacity: 1;
@@ -341,7 +346,7 @@
 					}
 				}
 				> h1 {
-					margin-top: 30px;
+					margin-top: 50px;
 					margin-bottom: 0;
 				}
 				.title {
@@ -356,7 +361,7 @@
 
 					h2 {
 						margin-right: 20px;
-						font: 45px/1 'Rajdhani';
+						font: 50px/1 'Rajdhani';
 						font-weight: 600;
 						color: #ff6ec4;
 						width: 45px;
@@ -364,7 +369,7 @@
 					span {
 						border-left: 1px solid #333;
 						padding-left: 20px;
-						font: 16px/1 'Rajdhani';
+						font: 25px/1 'Rajdhani';
 						font-weight: 500;
 						color: #ff6ec4;
 					}
@@ -372,9 +377,9 @@
 				.guide_box {
 					word-break: keep-all;
 					p {
+						margin-top: -7px;
 						padding-bottom: 15px;
-						font: 14px/1.4 'NanumSquare';
-						margin-top: -15px;
+						font: 16px/1.4 'NanumSquare';
 					}
 					.html_add {
 						display: flex;
@@ -390,7 +395,7 @@
 							color: #333;
 							display: inline-block;
 							padding: 10px 10px 10px 0;
-							font: 12px/1 'Rajdhani';
+							font: 14px/1 'Rajdhani';
 							border-right: 1px solid #333;
 
 							&.last {
