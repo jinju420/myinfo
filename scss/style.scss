@@ -13,13 +13,13 @@
 				justify-content: space-evenly;
 				margin-bottom: 50px;
 				h2 {
-					font: 130px/1 'Dancing Script';
+					font: 100px/1 'Dancing Script';
 				}
 				.img_box {
 					border: 1px solid #ff6ec4;
 					border-radius: 50%;
-					width: 170px;
-					height: 170px;
+					width: 150px;
+					height: 150px;
 					overflow: hidden;
 					img {
 						padding: 5px;
@@ -199,7 +199,7 @@
 								object-fit: cover;
 							}
 							span {
-								font: bold 25px/1 'Rajdhani';
+								font: bold 22px/1 'Rajdhani';
 								color: #ff6ec4;
 								white-space: nowrap;
 							}
@@ -208,7 +208,7 @@
 				}
 			}
 			h1 {
-				font: 50px/1 'Rajdhani';
+				font: 40px/1 'Rajdhani';
 				margin-bottom: 20px;
 			}
 		}
@@ -222,12 +222,12 @@
 						padding-right: 10px;
 						word-break: keep-all;
 						h2 {
-							font: bold 27px/1.5 'NanumSquare';
+							font: bold 22px/1.5 'NanumSquare';
 							margin-bottom: 10px;
 							margin-top: 30px;
 						}
 						p {
-							font: 20px/1.4 'NanumSquare';
+							font: 18px/1.4 'NanumSquare';
 						}
 					}
 				}
@@ -253,7 +253,7 @@
 								margin-top: 10px;
 								color: #333;
 								opacity: 0.5;
-								font-size: 16px;
+								font-size: 14px;
 								text-decoration: underline;
 								&:hover {
 									opacity: 1;
@@ -278,7 +278,7 @@
 
 					h2 {
 						margin-right: 30px;
-						font: 60px/1 'Rajdhani';
+						font: 50px/1 'Rajdhani';
 						font-weight: 600;
 						color: #ff6ec4;
 						width: 45px;
@@ -286,7 +286,7 @@
 					span {
 						border-left: 1px solid #333;
 						padding-left: 20px;
-						font: 30px/1 'Rajdhani';
+						font: 25px/1 'Rajdhani';
 						font-weight: 500;
 						color: #ff6ec4;
 					}
@@ -296,7 +296,7 @@
 					p {
 						margin-top: -7px;
 						padding-bottom: 15px;
-						font: 20px/1.4 'NanumSquare';
+						font: 18px/1.4 'NanumSquare';
 					}
 					.html_add {
 						display: flex;
@@ -313,7 +313,7 @@
 							color: #333;
 							display: inline-block;
 							padding: 10px 10px 10px 0;
-							font: 16px/1 'Rajdhani';
+							font: 14px/1 'Rajdhani';
 							border-right: 1px solid #333;
 
 							&.last {
