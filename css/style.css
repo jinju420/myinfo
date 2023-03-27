@@ -379,5 +379,38 @@ body {
     width: 85%;
   }
 }
+@media screen and (max-width: 1179px) {
+  #sec .sec01 .inner .top h2 {
+    font: 10vmin/1 "Dancing Script";
+  }
+  #sec .sec01 .inner .top .img_box {
+    width: 17vmin;
+    height: 17vmin;
+  }
+  #sec .sec01 .inner .bottom .info a {
+    font: 15px/1.4 "NanumSquare";
+  }
+  #sec .guide {
+    flex-direction: column;
+  }
+  #sec .guide .inner > div {
+    border-bottom: 1px solid #333;
+  }
+  #sec .guide .inner > div:last-child {
+    padding-bottom: 20px;
+  }
+  #sec .guide .inner h1 {
+    font: 35px/1 "Rajdhani";
+    margin-bottom: 20px;
+  }
+  #sec .guide .left {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+  }
+  #sec .guide .right {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

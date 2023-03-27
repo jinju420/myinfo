@@ -1,5 +1,7 @@
-@charset 'utf-8';
+$tablet: 1179px;
+$mobile: 539px;
 @import 'reset';
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Dancing+Script:wght@500&family=El+Messiri:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap');
 #sec {
 	width: 100%;
@@ -385,5 +387,54 @@
 	}
 	100% {
 		width: 85%;
+	}
+}
+
+@media screen and (max-width: $tablet) {
+	#sec {
+		.sec01 {
+			.inner {
+				.top {
+					h2 {
+						font: 10vmin/1 'Dancing Script';
+					}
+					.img_box {
+						width: 17vmin;
+						height: 17vmin;
+					}
+				}
+				.bottom {
+					.info {
+						a {
+							font: 15px/1.4 'NanumSquare';
+						}
+					}
+				}
+			}
+		}
+		.guide {
+			flex-direction: column;
+			.inner {
+				> div {
+					border-bottom: 1px solid #333;
+					&:last-child {
+						padding-bottom: 20px;
+					}
+				}
+				h1 {
+					font: 35px/1 'Rajdhani';
+					margin-bottom: 20px;
+				}
+			}
+			.left {
+				width: 100%;
+				border: none;
+				border-bottom: 1px solid #333;
+			}
+
+			.right {
+				width: 100%;
+			}
+		}
 	}
 }
