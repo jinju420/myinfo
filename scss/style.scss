@@ -23,10 +23,13 @@ $mobile: 539px;
 					width: 130px;
 					height: 130px;
 					overflow: hidden;
+					position: relative;
+					top: 10px;
 					img {
 						padding: 5px;
 						width: 100%;
 						height: 100%;
+						object-fit: cover;
 						border-radius: 50%;
 					}
 				}
