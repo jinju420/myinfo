@@ -1,5 +1,5 @@
 $tablet: 1179px;
-$mobile: 539px;
+$mobile: 678px;
 @import 'reset';
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Dancing+Script:wght@500&family=El+Messiri:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap');
@@ -437,6 +437,96 @@ $mobile: 539px;
 
 			.right {
 				width: 100%;
+			}
+		}
+	}
+}
+@media screen and (max-width: $mobile) {
+	#sec {
+		.sec01 {
+			.inner {
+				.top {
+					h2 {
+						font: 10vmin/1 'Dancing Script';
+					}
+					.img_box {
+						width: 15vmin;
+						height: 15vmin;
+					}
+				}
+				.bottom {
+					.info {
+						a {
+							font: 12px/1.4 'NanumSquare';
+						}
+					}
+				}
+			}
+		}
+		.guide {
+			flex-direction: column;
+			.inner {
+				> div {
+					border-bottom: 1px solid #333;
+					&:last-child {
+						padding-bottom: 20px;
+					}
+					.skillBox {
+						> div {
+							.img {
+								span {
+									font: bold 18px/1 'Rajdhani';
+								}
+							}
+						}
+					}
+				}
+				h1 {
+					font: 35px/1 'Rajdhani';
+					margin-bottom: 20px;
+				}
+			}
+			.left {
+				width: 100%;
+				border: none;
+				border-bottom: 1px solid #333;
+				> .inner {
+					> div:first-child {
+						p {
+							font: 14px/1.4 'NanumSquare';
+						}
+					}
+				}
+			}
+
+			.right {
+				width: 100%;
+				> .inner {
+					article {
+						p {
+							margin-left: 90px;
+						}
+					}
+					.title {
+						h2 {
+							font: 40px/1 'Rajdhani';
+						}
+						span {
+							font: 20px/1 'Rajdhani';
+						}
+					}
+				}
+				.guide_box {
+					p {
+						font: 14px/1.4 'NanumSquare';
+					}
+					.html_add {
+						.fa-folder-open {
+							padding-left: 10px;
+							font-size: 14px;
+						}
+					}
+				}
 			}
 		}
 	}
