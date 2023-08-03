@@ -221,7 +221,7 @@ $mobile: 678px;
 			> .inner {
 				> div {
 					&:first-child {
-						padding: 50px 0;
+						padding: 50px 0 20px 0;
 						padding-right: 10px;
 						word-break: keep-all;
 						border-bottom: 1px solid #333;
@@ -265,7 +265,7 @@ $mobile: 678px;
 									margin-top: 10px;
 									color: #333;
 									opacity: 0.5;
-									font-size: 14px;
+									font-size: 12px;
 									text-decoration: underline;
 									&:hover {
 										opacity: 1;
@@ -403,141 +403,141 @@ $mobile: 678px;
 	}
 }
 
-@media screen and (max-width: $tablet) {
-	#sec {
-		.sec01 {
-			.inner {
-				.top {
-					h2 {
-						font: 10vmin/1 'Dancing Script';
-					}
-					.img_box {
-						width: 15vmin;
-						height: 15vmin;
-					}
-				}
-				.bottom {
-					.info {
-						a {
-							font: 15px/1.4 'NanumSquare';
-						}
-					}
-				}
-			}
-		}
-		.guide {
-			flex-direction: column;
-			.inner {
-				> div {
-					border-bottom: 1px solid #333;
-					&:last-child {
-						padding-bottom: 20px;
-					}
-				}
-				h1 {
-					font: 35px/1 'Rajdhani';
-					margin-bottom: 20px;
-				}
-			}
-			.left {
-				width: 100%;
-				border: none;
-				border-bottom: 1px solid #333;
-			}
+// @media screen and (max-width: $tablet) {
+// 	#sec {
+// 		.sec01 {
+// 			.inner {
+// 				.top {
+// 					h2 {
+// 						font: 10vmin/1 'Dancing Script';
+// 					}
+// 					.img_box {
+// 						width: 15vmin;
+// 						height: 15vmin;
+// 					}
+// 				}
+// 				.bottom {
+// 					.info {
+// 						a {
+// 							font: 15px/1.4 'NanumSquare';
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.guide {
+// 			flex-direction: column;
+// 			.inner {
+// 				> div {
+// 					border-bottom: 1px solid #333;
+// 					&:last-child {
+// 						padding-bottom: 20px;
+// 					}
+// 				}
+// 				h1 {
+// 					font: 35px/1 'Rajdhani';
+// 					margin-bottom: 20px;
+// 				}
+// 			}
+// 			.left {
+// 				width: 100%;
+// 				border: none;
+// 				border-bottom: 1px solid #333;
+// 			}
 
-			.right {
-				width: 100%;
-			}
-		}
-	}
-}
-@media screen and (max-width: $mobile) {
-	#sec {
-		.sec01 {
-			.inner {
-				.top {
-					h2 {
-						font: 10vmin/1 'Dancing Script';
-					}
-					.img_box {
-						width: 15vmin;
-						height: 15vmin;
-					}
-				}
-				.bottom {
-					.info {
-						a {
-							font: 12px/1.4 'NanumSquare';
-						}
-					}
-				}
-			}
-		}
-		.guide {
-			flex-direction: column;
-			.inner {
-				> div {
-					border-bottom: 1px solid #333;
-					&:last-child {
-						padding-bottom: 20px;
-					}
-					.skillBox {
-						> div {
-							.img {
-								span {
-									font: bold 18px/1 'Rajdhani';
-								}
-							}
-						}
-					}
-				}
-				h1 {
-					font: 35px/1 'Rajdhani';
-					margin-bottom: 20px;
-				}
-			}
-			.left {
-				width: 100%;
-				border: none;
-				border-bottom: 1px solid #333;
-				> .inner {
-					> div:first-child {
-						p {
-							font: 14px/1.4 'NanumSquare';
-						}
-					}
-				}
-			}
+// 			.right {
+// 				width: 100%;
+// 			}
+// 		}
+// 	}
+// }
+// @media screen and (max-width: $mobile) {
+// 	#sec {
+// 		.sec01 {
+// 			.inner {
+// 				.top {
+// 					h2 {
+// 						font: 10vmin/1 'Dancing Script';
+// 					}
+// 					.img_box {
+// 						width: 15vmin;
+// 						height: 15vmin;
+// 					}
+// 				}
+// 				.bottom {
+// 					.info {
+// 						a {
+// 							font: 12px/1.4 'NanumSquare';
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.guide {
+// 			flex-direction: column;
+// 			.inner {
+// 				> div {
+// 					border-bottom: 1px solid #333;
+// 					&:last-child {
+// 						padding-bottom: 20px;
+// 					}
+// 					.skillBox {
+// 						> div {
+// 							.img {
+// 								span {
+// 									font: bold 18px/1 'Rajdhani';
+// 								}
+// 							}
+// 						}
+// 					}
+// 				}
+// 				h1 {
+// 					font: 35px/1 'Rajdhani';
+// 					margin-bottom: 20px;
+// 				}
+// 			}
+// 			.left {
+// 				width: 100%;
+// 				border: none;
+// 				border-bottom: 1px solid #333;
+// 				> .inner {
+// 					> div:first-child {
+// 						p {
+// 							font: 14px/1.4 'NanumSquare';
+// 						}
+// 					}
+// 				}
+// 			}
 
-			.right {
-				width: 100%;
-				> .inner {
-					article {
-						p {
-							margin-left: 90px;
-						}
-					}
-					.title {
-						h2 {
-							font: 40px/1 'Rajdhani';
-						}
-						span {
-							font: 20px/1 'Rajdhani';
-						}
-					}
-				}
-				.guide_box {
-					p {
-						font: 14px/1.4 'NanumSquare';
-					}
-					.html_add {
-						.fa-folder-open {
-							padding-left: 10px;
-							font-size: 14px;
-						}
-					}
-				}
-			}
-		}
-	}
-}
+// 			.right {
+// 				width: 100%;
+// 				> .inner {
+// 					article {
+// 						p {
+// 							margin-left: 90px;
+// 						}
+// 					}
+// 					.title {
+// 						h2 {
+// 							font: 40px/1 'Rajdhani';
+// 						}
+// 						span {
+// 							font: 20px/1 'Rajdhani';
+// 						}
+// 					}
+// 				}
+// 				.guide_box {
+// 					p {
+// 						font: 14px/1.4 'NanumSquare';
+// 					}
+// 					.html_add {
+// 						.fa-folder-open {
+// 							padding-left: 10px;
+// 							font-size: 14px;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }

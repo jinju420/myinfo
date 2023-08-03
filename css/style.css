@@ -219,7 +219,7 @@ body {
   margin-bottom: 20px;
 }
 #sec .guide .left > .inner > div:first-child {
-  padding: 50px 0;
+  padding: 50px 0 20px 0;
   padding-right: 10px;
   word-break: keep-all;
   border-bottom: 1px solid #333;
@@ -259,7 +259,7 @@ body {
   margin-top: 10px;
   color: #333;
   opacity: 0.5;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: underline;
 }
 #sec .guide .right > .inner .right_box article:last-child p a:hover {
@@ -381,94 +381,6 @@ body {
   }
   100% {
     width: 85%;
-  }
-}
-@media screen and (max-width: 1179px) {
-  #sec .sec01 .inner .top h2 {
-    font: 10vmin/1 "Dancing Script";
-  }
-  #sec .sec01 .inner .top .img_box {
-    width: 15vmin;
-    height: 15vmin;
-  }
-  #sec .sec01 .inner .bottom .info a {
-    font: 15px/1.4 "NanumSquare";
-  }
-  #sec .guide {
-    flex-direction: column;
-  }
-  #sec .guide .inner > div {
-    border-bottom: 1px solid #333;
-  }
-  #sec .guide .inner > div:last-child {
-    padding-bottom: 20px;
-  }
-  #sec .guide .inner h1 {
-    font: 35px/1 "Rajdhani";
-    margin-bottom: 20px;
-  }
-  #sec .guide .left {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #333;
-  }
-  #sec .guide .right {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 678px) {
-  #sec .sec01 .inner .top h2 {
-    font: 10vmin/1 "Dancing Script";
-  }
-  #sec .sec01 .inner .top .img_box {
-    width: 15vmin;
-    height: 15vmin;
-  }
-  #sec .sec01 .inner .bottom .info a {
-    font: 12px/1.4 "NanumSquare";
-  }
-  #sec .guide {
-    flex-direction: column;
-  }
-  #sec .guide .inner > div {
-    border-bottom: 1px solid #333;
-  }
-  #sec .guide .inner > div:last-child {
-    padding-bottom: 20px;
-  }
-  #sec .guide .inner > div .skillBox > div .img span {
-    font: bold 18px/1 "Rajdhani";
-  }
-  #sec .guide .inner h1 {
-    font: 35px/1 "Rajdhani";
-    margin-bottom: 20px;
-  }
-  #sec .guide .left {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #333;
-  }
-  #sec .guide .left > .inner > div:first-child p {
-    font: 14px/1.4 "NanumSquare";
-  }
-  #sec .guide .right {
-    width: 100%;
-  }
-  #sec .guide .right > .inner article p {
-    margin-left: 90px;
-  }
-  #sec .guide .right > .inner .title h2 {
-    font: 40px/1 "Rajdhani";
-  }
-  #sec .guide .right > .inner .title span {
-    font: 20px/1 "Rajdhani";
-  }
-  #sec .guide .right .guide_box p {
-    font: 14px/1.4 "NanumSquare";
-  }
-  #sec .guide .right .guide_box .html_add .fa-folder-open {
-    padding-left: 10px;
-    font-size: 14px;
   }
 }
 
