@@ -65,10 +65,10 @@ $mobile: 678px;
 	}
 
 	.guide {
-		display: flex;
+		// display: flex;
 		.inner {
 			> div {
-				padding: 50px 0 0;
+				// padding: 50px 0 0;
 				border-bottom: 1px solid #333;
 				&:last-child {
 					border: none;
@@ -218,14 +218,13 @@ $mobile: 678px;
 			}
 		}
 		.left {
-			width: 50%;
-			border-right: 1px solid #333;
 			> .inner {
 				> div {
 					&:first-child {
-						padding-bottom: 30px;
+						padding: 50px 0;
 						padding-right: 10px;
 						word-break: keep-all;
+						border-bottom: 1px solid #333;
 						h2 {
 							font: bold 20px/1.5 'NanumSquare';
 							margin-bottom: 10px;
@@ -239,33 +238,44 @@ $mobile: 678px;
 		}
 
 		.right {
-			width: 50%;
 			padding-left: 10px;
+			padding-bottom: 50px;
 			> .inner {
-				article {
-					width: 100%;
-					margin-top: 20px;
-					border-bottom: 1px solid #333;
-					p {
-						margin-left: 97px;
+				.right_box {
+					display: flex;
+					justify-content: space-evenly;
+					.box_fir {
+						padding-right: 30px;
+						border-right: 1px solid #333;
 					}
-					&:last-child {
-						border-bottom: none;
+					.box_fir,
+					.box_sec {
+						width: 47%;
+					}
+					article {
+						width: 100%;
+						margin-top: 50px;
+						border-bottom: 1px solid #333;
 						p {
-							a {
-								display: inline-block;
-								margin-top: 10px;
-								color: #333;
-								opacity: 0.5;
-								font-size: 14px;
-								text-decoration: underline;
-								&:hover {
-									opacity: 1;
+							margin-left: 92px;
+						}
+						&:last-child {
+							p {
+								a {
+									margin-top: 10px;
+									color: #333;
+									opacity: 0.5;
+									font-size: 14px;
+									text-decoration: underline;
+									&:hover {
+										opacity: 1;
+									}
 								}
 							}
 						}
 					}
 				}
+
 				> h1 {
 					margin-top: 50px;
 					margin-bottom: 0;

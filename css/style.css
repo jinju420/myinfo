@@ -76,11 +76,7 @@ body {
   margin-right: 5px;
   color: #ff6ec4;
 }
-#sec .guide {
-  display: flex;
-}
 #sec .guide .inner > div {
-  padding: 50px 0 0;
   border-bottom: 1px solid #333;
 }
 #sec .guide .inner > div:last-child {
@@ -222,14 +218,11 @@ body {
   font: 35px/1 "Rajdhani";
   margin-bottom: 20px;
 }
-#sec .guide .left {
-  width: 50%;
-  border-right: 1px solid #333;
-}
 #sec .guide .left > .inner > div:first-child {
-  padding-bottom: 30px;
+  padding: 50px 0;
   padding-right: 10px;
   word-break: keep-all;
+  border-bottom: 1px solid #333;
 }
 #sec .guide .left > .inner > div:first-child h2 {
   font: bold 20px/1.5 "NanumSquare";
@@ -239,29 +232,37 @@ body {
   font: 16px/1.4 "NanumSquare";
 }
 #sec .guide .right {
-  width: 50%;
   padding-left: 10px;
+  padding-bottom: 50px;
 }
-#sec .guide .right > .inner article {
+#sec .guide .right > .inner .right_box {
+  display: flex;
+  justify-content: space-evenly;
+}
+#sec .guide .right > .inner .right_box .box_fir {
+  padding-right: 30px;
+  border-right: 1px solid #333;
+}
+#sec .guide .right > .inner .right_box .box_fir,
+#sec .guide .right > .inner .right_box .box_sec {
+  width: 47%;
+}
+#sec .guide .right > .inner .right_box article {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
   border-bottom: 1px solid #333;
 }
-#sec .guide .right > .inner article p {
-  margin-left: 97px;
+#sec .guide .right > .inner .right_box article p {
+  margin-left: 92px;
 }
-#sec .guide .right > .inner article:last-child {
-  border-bottom: none;
-}
-#sec .guide .right > .inner article:last-child p a {
-  display: inline-block;
+#sec .guide .right > .inner .right_box article:last-child p a {
   margin-top: 10px;
   color: #333;
   opacity: 0.5;
   font-size: 14px;
   text-decoration: underline;
 }
-#sec .guide .right > .inner article:last-child p a:hover {
+#sec .guide .right > .inner .right_box article:last-child p a:hover {
   opacity: 1;
 }
 #sec .guide .right > .inner > h1 {
