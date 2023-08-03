@@ -65,151 +65,11 @@ $mobile: 678px;
 	}
 
 	.guide {
-		// display: flex;
 		.inner {
 			> div {
-				// padding: 50px 0 0;
 				border-bottom: 1px solid #333;
 				&:last-child {
 					border: none;
-				}
-				.skillBox {
-					margin-top: 50px;
-					> div {
-						display: flex;
-						align-items: center;
-						justify-content: space-evenly;
-						margin-bottom: 20px;
-						&:nth-of-type(1) .container {
-							width: 50%;
-							.progress2 {
-								border-radius: 30px;
-								background: #ddd;
-							}
-							.progress-bar2 {
-								height: 10px;
-								border-radius: 30px;
-								animation: bar1 2s linear 1;
-
-								transition-property: width, background-color;
-							}
-							.progress-moved .progress-bar2 {
-								width: 90%;
-								background-color: #ef476f;
-								animation: bar1 2s linear 1;
-							}
-						}
-						&:nth-of-type(2) .container {
-							width: 50%;
-							.progress2 {
-								border-radius: 30px;
-								background: #ddd;
-							}
-							.progress-bar2 {
-								height: 10px;
-								border-radius: 30px;
-								animation: bar2 2s linear 1;
-
-								transition-property: width, background-color;
-							}
-							.progress-moved .progress-bar2 {
-								width: 90%;
-								background-color: #ef476f;
-								animation: bar2 2s linear 1;
-							}
-						}
-						&:nth-of-type(3) .container {
-							width: 50%;
-							.progress2 {
-								border-radius: 30px;
-								background: #ddd;
-							}
-							.progress-bar2 {
-								height: 10px;
-								border-radius: 30px;
-								animation: bar3 2s linear 1;
-
-								transition-property: width, background-color;
-							}
-							.progress-moved .progress-bar2 {
-								width: 85%;
-								background-color: #ef476f;
-								animation: bar3 2s linear 1;
-							}
-						}
-						&:nth-of-type(4) .container {
-							width: 50%;
-							.progress2 {
-								border-radius: 30px;
-								background: #ddd;
-							}
-							.progress-bar2 {
-								height: 10px;
-								border-radius: 30px;
-								animation: bar4 2s linear 1;
-
-								transition-property: width, background-color;
-							}
-							.progress-moved .progress-bar2 {
-								width: 70%;
-								background-color: #ef476f;
-								animation: bar4 2s linear 1;
-							}
-						}
-						&:nth-of-type(5) .container {
-							width: 50%;
-							.progress2 {
-								border-radius: 30px;
-								background: #ddd;
-							}
-							.progress-bar2 {
-								height: 10px;
-								border-radius: 30px;
-								animation: bar5 2s linear 1;
-
-								transition-property: width, background-color;
-							}
-							.progress-moved .progress-bar2 {
-								width: 80%;
-								background-color: #ef476f;
-								animation: bar5 2s linear 1;
-							}
-						}
-						&:nth-of-type(6) .container {
-							width: 50%;
-							.progress2 {
-								border-radius: 30px;
-								background: #ddd;
-							}
-							.progress-bar2 {
-								height: 10px;
-								border-radius: 30px;
-								animation: bar6 2s linear 1;
-
-								transition-property: width, background-color;
-							}
-							.progress-moved .progress-bar2 {
-								width: 85%;
-								background-color: #ef476f;
-								animation: bar6 2s linear 1;
-							}
-						}
-						.img {
-							display: flex;
-							align-items: center;
-							width: 100px;
-							img {
-								width: 30px;
-								height: 30px;
-								object-fit: cover;
-							}
-							span {
-								font: bold 22px/1 'Rajdhani';
-								color: #ff6ec4;
-								white-space: nowrap;
-							}
-						}
-					}
 				}
 			}
 			h1 {
@@ -403,54 +263,27 @@ $mobile: 678px;
 	}
 }
 
-// @media screen and (max-width: $tablet) {
-// 	#sec {
-// 		.sec01 {
-// 			.inner {
-// 				.top {
-// 					h2 {
-// 						font: 10vmin/1 'Dancing Script';
-// 					}
-// 					.img_box {
-// 						width: 15vmin;
-// 						height: 15vmin;
-// 					}
-// 				}
-// 				.bottom {
-// 					.info {
-// 						a {
-// 							font: 15px/1.4 'NanumSquare';
-// 						}
-// 					}
-// 				}
-// 			}
-// 		}
-// 		.guide {
-// 			flex-direction: column;
-// 			.inner {
-// 				> div {
-// 					border-bottom: 1px solid #333;
-// 					&:last-child {
-// 						padding-bottom: 20px;
-// 					}
-// 				}
-// 				h1 {
-// 					font: 35px/1 'Rajdhani';
-// 					margin-bottom: 20px;
-// 				}
-// 			}
-// 			.left {
-// 				width: 100%;
-// 				border: none;
-// 				border-bottom: 1px solid #333;
-// 			}
-
-// 			.right {
-// 				width: 100%;
-// 			}
-// 		}
-// 	}
-// }
+@media screen and (max-width: $tablet) {
+	#sec {
+		.guide {
+			.right {
+				> .inner {
+					.right_box {
+						display: block;
+						.box_fir {
+							padding-right: 0;
+							border-right: none;
+						}
+						.box_fir,
+						.box_sec {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 // @media screen and (max-width: $mobile) {
 // 	#sec {
 // 		.sec01 {
