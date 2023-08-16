@@ -25,10 +25,10 @@
 
         <div class="bottom">
           <div class="info">
-            <!-- <a target href="pdf/자기소개서.pdf" download="자기소개서.pdf">
+            <a target href="pdf/자기소개서.pdf" download="자기소개서.pdf">
               <i class="fa fa-user"></i>
               자기소개서 다운로드
-            </a> -->
+            </a>
             <a href="javascript:void(0);" class="video">
               <i class="fa fa-envelope"></i>
               ljjshlove@naver.com
@@ -52,8 +52,40 @@
                 제가 배운 기술로 흰 도화지를 메꾸듯 스케치하여 구현해나가는 과정이 재밌습니다.<br> 모두가 만족 할 수 있는 최적의 솔루션을 제공하고 늘 사용자의 관점에서 생각하며 항상 새로운 시도를
                 두려워하지 않겠습니다. 저의 성장 가능성을 믿고 개발해 나가며 더욱 발전하는 프론트엔드 개발자가 되겠습니다.
               </p>
+            </div>
+            <div class="self_infoBox">
+              <div class="self_info">
+                <h2> 기업형 레이아웃 페이지를 리액트로 고도화하면서 생기는
+                  | Challenge Issue</h2>
+                <p>
+                  <br><br>
+                <h4>
+                  * mypage에서 submit을 state에 참조하여 코드를 짠 경우 생긴 문제
+                </h4>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▸ useEFfect에 의존성 배열로 등록을 해야되고 의존성 배열 등록시 처음 컴포넌트 마운트시에 호출되며 전송버튼 클릭전에
+                회원가입 성공 경고창이 뜸
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▸ 이러한 이슈를 해결하기 위해 Sumbit을 의존성 배열에 등록하지 않아도 되도록 useRef로 값을 지정하여 코드를 변경
+
+                <br><br><br>
+                <h4> *
+                  메인 페이지 스크롤시 불필요하게 재랜더링되는 header, vids, pics, visual컴포넌트 문제</h4>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                ▸ 매번 재랜더링하는 것이 아닌 이전에 랜더링된 결과물을 재사용하기 위해
+                memo로 메모이제이션처리
+
+                <br><br><br>
+                <h4>* 맥 os에서 한글 input요청 두번씩 올라가는 문제 해결</h4>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                ▸ onKeyUp -> onKeyPress로 키보드 이벤트 변경
 
 
+
+                </p>
+              </div>
             </div>
           </div>
           <!-- 

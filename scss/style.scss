@@ -82,18 +82,25 @@ $mobile: 678px;
 		.left {
 			width: 60%;
 			> .inner {
-				> div {
-					&:first-child {
-						padding: 40px 0 20px 0;
-						padding-right: 10px;
-						word-break: keep-all;
+				.box1 {
+					padding: 40px 0 20px 0;
+					padding-right: 10px;
+					word-break: keep-all;
+					.wrap {
 						border-bottom: 1px solid #333;
+						padding-bottom: 15px;
 						h2 {
 							font: bold 20px/1.5 'NanumSquare';
 							margin-bottom: 10px;
 						}
 						p {
 							font: 16px/1.4 'NanumSquare';
+						}
+					}
+					.self_info {
+						padding-top: 50px;
+						h2 {
+							font: bold 20px/1.5 'NanumSquare';
 						}
 					}
 				}

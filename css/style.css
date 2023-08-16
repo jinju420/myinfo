@@ -93,18 +93,27 @@ body {
 #sec .guide .left {
   width: 60%;
 }
-#sec .guide .left > .inner > div:first-child {
+#sec .guide .left > .inner .box1 {
   padding: 40px 0 20px 0;
   padding-right: 10px;
   word-break: keep-all;
-  border-bottom: 1px solid #333;
 }
-#sec .guide .left > .inner > div:first-child h2 {
+#sec .guide .left > .inner .box1 .wrap {
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+#sec .guide .left > .inner .box1 .wrap h2 {
   font: bold 20px/1.5 "NanumSquare";
   margin-bottom: 10px;
 }
-#sec .guide .left > .inner > div:first-child p {
+#sec .guide .left > .inner .box1 .wrap p {
   font: 16px/1.4 "NanumSquare";
+}
+#sec .guide .left > .inner .box1 .self_info {
+  padding-top: 50px;
+}
+#sec .guide .left > .inner .box1 .self_info h2 {
+  font: bold 20px/1.5 "NanumSquare";
 }
 #sec .guide .right {
   padding-left: 10px;
