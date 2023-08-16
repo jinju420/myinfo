@@ -65,6 +65,8 @@ $mobile: 678px;
 	}
 
 	.guide {
+		display: flex;
+		justify-content: space-evenly;
 		.inner {
 			> div {
 				border-bottom: 1px solid #333;
@@ -78,10 +80,11 @@ $mobile: 678px;
 			}
 		}
 		.left {
+			width: 60%;
 			> .inner {
 				> div {
 					&:first-child {
-						padding: 50px 0 20px 0;
+						padding: 40px 0 20px 0;
 						padding-right: 10px;
 						word-break: keep-all;
 						border-bottom: 1px solid #333;
@@ -99,19 +102,19 @@ $mobile: 678px;
 
 		.right {
 			padding-left: 10px;
-			padding-bottom: 50px;
+			padding-bottom: 30px;
 			> .inner {
 				.right_box {
-					display: flex;
-					justify-content: space-evenly;
-					.box_fir {
-						padding-right: 30px;
-						border-right: 1px solid #333;
-					}
-					.box_fir,
-					.box_sec {
-						width: 47%;
-					}
+					// display: flex;
+					// justify-content: space-evenly;
+					// .box_fir {
+					// 	padding-right: 30px;
+					// 	border-right: 1px solid #333;
+					// }
+					// .box_fir,
+					// .box_sec {
+					// 	width: 47%;
+					// }
 					article {
 						width: 100%;
 						margin-top: 30px;
@@ -137,7 +140,7 @@ $mobile: 678px;
 				}
 
 				> h1 {
-					margin-top: 50px;
+					margin-top: 40px;
 					margin-bottom: 0;
 				}
 				.title {
@@ -214,54 +217,54 @@ $mobile: 678px;
 	}
 }
 
-@keyframes bar1 {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 90%;
-	}
-}
-@keyframes bar2 {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 90%;
-	}
-}
-@keyframes bar3 {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 85%;
-	}
-}
-@keyframes bar4 {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 70%;
-	}
-}
-@keyframes bar5 {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 80%;
-	}
-}
-@keyframes bar6 {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 85%;
-	}
-}
+// @keyframes bar1 {
+// 	0% {
+// 		width: 0%;
+// 	}
+// 	100% {
+// 		width: 90%;
+// 	}
+// }
+// @keyframes bar2 {
+// 	0% {
+// 		width: 0%;
+// 	}
+// 	100% {
+// 		width: 90%;
+// 	}
+// }
+// @keyframes bar3 {
+// 	0% {
+// 		width: 0%;
+// 	}
+// 	100% {
+// 		width: 85%;
+// 	}
+// }
+// @keyframes bar4 {
+// 	0% {
+// 		width: 0%;
+// 	}
+// 	100% {
+// 		width: 70%;
+// 	}
+// }
+// @keyframes bar5 {
+// 	0% {
+// 		width: 0%;
+// 	}
+// 	100% {
+// 		width: 80%;
+// 	}
+// }
+// @keyframes bar6 {
+// 	0% {
+// 		width: 0%;
+// 	}
+// 	100% {
+// 		width: 85%;
+// 	}
+// }
 
 @media screen and (max-width: $tablet) {
 	#sec {
