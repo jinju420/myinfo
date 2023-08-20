@@ -78,7 +78,7 @@ body {
 }
 #sec .guide {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 #sec .guide .inner > div {
   border-bottom: 1px solid #333;
@@ -114,6 +114,10 @@ body {
 }
 #sec .guide .left > .inner .box1 .self_info h2 {
   font: bold 20px/1.5 "NanumSquare";
+}
+#sec .guide .left > .inner .box1 .self_info span {
+  display: block;
+  padding-left: 25px;
 }
 #sec .guide .right {
   padding-left: 10px;

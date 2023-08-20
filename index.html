@@ -56,34 +56,45 @@
             <div class="self_infoBox">
               <div class="self_info">
                 <h2> REACT / JSX를 활용하여 완성한 기업형 레이아웃 홈페이지를 리액트로 고도화하면서 생기는 Issue</h2>
-                <p>
-                  <br><br>
+
+                <br><br>
                 <h4>
                   * mypage에서 submit을 state에 참조하여 코드를 짠 경우 생긴 문제
                 </h4>
                 <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▸ useEFfect에 의존성 배열로 등록을 해야되고 의존성 배열 등록시 처음 컴포넌트 마운트시에 호출되며 전송버튼 클릭전에
-                회원가입 성공 경고창이 뜸
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▸ 이러한 이슈를 해결하기 위해 Sumbit을 의존성 배열에 등록하지 않아도 되도록 useRef로 값을 지정하여 코드를 변경
+                <span>
+                  ▸ useEFfect에 의존성 배열로 등록을 해야되고 의존성 배열 등록시 처음 컴포넌트 마운트시에 호출되며 전송버튼 클릭전에
+                  회원가입 성공 경고창이 뜸
+                  <br>
+                  ▸ 이러한 이슈를 해결하기 위해 Sumbit을 의존성 배열에 등록하지 않아도 되도록 useRef로 값을 지정하여 코드를 변경
+                </span>
+
+
 
                 <br><br><br>
                 <h4> *
                   메인 페이지 스크롤시 불필요하게 재랜더링되는 header, vids, pics, visual 컴포넌트 문제</h4>
                 <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                ▸ 매번 재랜더링하는 것이 아닌 이전에 랜더링된 결과물을 재사용하기 위해
-                memo로 메모이제이션처리
+                <span>
+                  ▸ 매번 재랜더링하는 것이 아닌 이전에 랜더링된 결과물을 재사용하기 위해
+                  memo로 메모이제이션처리
+                </span>
+
+
 
                 <br><br><br>
                 <h4>* 맥 os에서 한글 input요청 두번씩 올라가는 문제 해결</h4>
                 <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                ▸ onKeyUp -> onKeyPress로 키보드 이벤트 변경
+
+                <span>
+
+                  ▸ onKeyUp -> onKeyPress로 키보드 이벤트 변경
+                </span>
 
 
 
-                </p>
+
+
               </div>
             </div>
           </div>
