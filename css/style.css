@@ -146,8 +146,8 @@ body {
   margin-bottom: 0;
   display: inline-block;
 }
-#sec .guide .right > .inner > h1 span {
-  font-size: 12px;
+#sec .guide .right > .inner span {
+  font-size: 14px;
 }
 #sec .guide .right > .inner .title {
   display: flex;
