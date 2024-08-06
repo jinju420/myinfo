@@ -128,6 +128,9 @@ body {
   margin-top: 30px;
   border-bottom: 1px solid #333;
 }
+#sec .guide .right > .inner .right_box article.box1 {
+  margin-bottom: 100px;
+}
 #sec .guide .right > .inner .right_box article p {
   margin-left: 92px;
 }
@@ -178,7 +181,7 @@ body {
 }
 #sec .guide .right > .inner .guide_box p {
   margin-top: -10px;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
   font: 16px/1.4 "NanumSquare";
 }
 #sec .guide .right > .inner .guide_box .html_add {

@@ -130,6 +130,9 @@ $mobile: 678px;
 						width: 100%;
 						margin-top: 30px;
 						border-bottom: 1px solid #333;
+						&.box1 {
+							margin-bottom: 100px;
+						}
 						p {
 							margin-left: 92px;
 						}
@@ -187,7 +190,8 @@ $mobile: 678px;
 					word-break: keep-all;
 					p {
 						margin-top: -10px;
-						padding-bottom: 15px;
+						padding-bottom: 50px;
+						// padding-bottom: 15px;
 						font: 16px/1.4 'NanumSquare';
 					}
 					.html_add {
