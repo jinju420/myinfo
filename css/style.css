@@ -26,6 +26,10 @@ body {
   border: 1px solid #333;
   padding: 30px 10px 0;
 }
+#sec h1 {
+  font: 35px/1 "Rajdhani";
+  margin-bottom: 20px;
+}
 #sec .sec01 .inner .top {
   display: flex;
   align-items: center;
@@ -76,22 +80,23 @@ body {
   margin-right: 5px;
   color: #ff6ec4;
 }
-#sec .guide {
-  display: flex;
-  justify-content: space-around;
+#sec .guide .right .inner .right_box {
+  display: block;
 }
-#sec .guide .inner > div {
+#sec .guide .right .inner .right_box .box_fir {
+  padding-right: 0;
+  border-right: none;
+}
+#sec .guide .right .inner .right_box .box_fir,
+#sec .guide .right .inner .right_box .box_sec {
+  display: flex;
+  justify-content: space-between;
+}
+#sec .guide .right .inner > div {
   border-bottom: 1px solid #333;
 }
-#sec .guide .inner > div:last-child {
+#sec .guide .right .inner > div:last-child {
   border: none;
-}
-#sec .guide .inner h1 {
-  font: 35px/1 "Rajdhani";
-  margin-bottom: 20px;
-}
-#sec .guide .left {
-  width: 60%;
 }
 #sec .guide .left > .inner .box1 {
   padding: 40px 0 20px 0;
@@ -124,12 +129,9 @@ body {
   padding-bottom: 30px;
 }
 #sec .guide .right > .inner .right_box article {
-  width: 100%;
+  width: 48%;
   margin-top: 30px;
   border-bottom: 1px solid #333;
-}
-#sec .guide .right > .inner .right_box article.box1 {
-  margin-bottom: 100px;
 }
 #sec .guide .right > .inner .right_box article p {
   margin-left: 92px;
@@ -226,9 +228,10 @@ body {
     padding-right: 0;
     border-right: none;
   }
-  #sec .guide .right > .inner .right_box .box_fir,
-  #sec .guide .right > .inner .right_box .box_sec {
-    width: 100%;
+  #sec .guide .left p br {
+    display: inline-block;
+    content: " ";
+    padding: 0 2px;
   }
 }
 
